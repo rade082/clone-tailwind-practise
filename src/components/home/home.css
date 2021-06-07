@@ -1,0 +1,36 @@
+.home{
+    @apply ml-60 mr-28 mt-16 flex flex-col
+}
+.home-header{
+    @apply text-8xl font-medium
+}
+.home-block1{
+    @apply text-left mb-12
+}
+.home-block2{
+    @apply flex justify-between mb-28
+}
+.home-left{
+    @apply rounded-full w-12 h-12 mr-4
+}
+
+.multi-rings {
+    @apply flex-1;  
+}
+
+.inner-wrapper {
+    @apply flex justify-end;
+}
+
+.ring-wrapper {
+    margin: 0 -1.05rem 0 0;
+}
+
+.ring-wrapper img {
+   box-shadow: 0 0 0 6px #111;    
+}
+
+.ring-wrapper img:hover {
+    @apply z-50 transform scale-125;
+    transition : all 0.2s ease-out;
+}

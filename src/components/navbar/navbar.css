@@ -1,0 +1,12 @@
+.nav{
+    @apply p-4 flex justify-between
+}
+button{
+    @apply border-0 rounded-full py-1 px-2 font-bold text-black bg-gray-200 
+}
+.nav-text1{
+    @apply font-semibold text-gray-500;
+}
+.nav-text2{
+    @apply text-gray-200 font-bold
+}

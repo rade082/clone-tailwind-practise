@@ -1,0 +1,8 @@
+.ring-wrapper {
+    border-radius: 50%;
+    @apply w-10; 
+}
+.ring-wrapper img {
+    border-radius: 50%;
+    @apply w-10;
+}
